@@ -14,7 +14,7 @@ model = genai.GenerativeModel('gemini-1.5-flash')
 
 
 # Load and rotate the image
-image_path = 'images/20240626_111515.jpg'
+image_path = 'images/murtaza.png'
 image = Image.open(image_path)
 rotated_image = image.rotate(270)  # Rotate the image by 90 degrees
 
