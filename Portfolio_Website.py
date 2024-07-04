@@ -79,7 +79,7 @@ st.title(" ")
 with col1:
     st.subheader("My channel")
     for i in range(5):
-        st.write("My channel name is The best")
+        st.write("My channel name is ETC")
 
 with col2:
     st.video("https://youtu.be/BFlRmIvqwSA?si=a6qL3krtRgqVIKOZ")
