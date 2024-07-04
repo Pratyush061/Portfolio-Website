@@ -15,8 +15,8 @@ model = genai.GenerativeModel('gemini-1.5-flash')
 
 # Load and rotate the image
 image_path = 'images/murtaza.png'
-image = Image.open(image_path)
-rotated_image = image.rotate(270)  # Rotate the image by 90 degrees
+# image = Image.open(image_path)
+# rotated_image = image.rotate(270)  # Rotate the image by 90 degrees
 
 # Streamlit layout
 col1, col2 = st.columns(2)
@@ -26,7 +26,7 @@ with col1:
     st.title("I am Pratyush Jain")
 
 with col2:
-    st.image(rotated_image)
+    st.image(image_path)
 
 st.title(' ')
 st.title("My AI Bot")
